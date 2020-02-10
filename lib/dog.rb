@@ -11,7 +11,7 @@ class Dog
   
   def self.all
      ObjectSpace.each_object(self).to_a 
-     puts @name 
+     puts name 
   end
   
 end
