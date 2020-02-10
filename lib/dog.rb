@@ -21,7 +21,7 @@ class Dog
   
   def self.print_all
    @@all.each do |dog| #this code is used to return all dog instances 
-     puts Dog.name 
+     puts Dog  
    end 
   end
 end
