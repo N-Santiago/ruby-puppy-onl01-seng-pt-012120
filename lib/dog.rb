@@ -20,7 +20,8 @@ class Dog
   end 
   
   def self.print_all
-    dog_name = [name]
-    puts dog_name 
+    @@all.map do |dog|
+      puts Dog.name 
+    end
   end
 end
