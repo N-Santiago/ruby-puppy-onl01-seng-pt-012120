@@ -10,7 +10,7 @@ class Dog
   end
   
   def self.all
-    @all
+     ObjectSpace.each_object(self).to_a
   end
   
 end
