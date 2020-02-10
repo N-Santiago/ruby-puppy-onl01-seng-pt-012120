@@ -20,7 +20,7 @@ class Dog
   end 
   
   def self.print_all
-    @@name.sort 
+    @@all.sort 
     puts Dog.name 
   end
 end
