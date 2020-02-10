@@ -11,7 +11,6 @@ class Dog
   
   def self.all
      ObjectSpace.each_object(self).to_a 
-     puts name 
   end
   
 end
