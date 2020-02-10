@@ -19,7 +19,8 @@ class Dog
     @@all.clear 
   end 
   
-  def self.print_all(name)
-    @name.sort 
+  def self.print_all
+    @@name.sort 
+    puts Dog.name 
   end
 end
