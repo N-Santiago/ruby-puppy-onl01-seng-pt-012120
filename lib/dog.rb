@@ -20,7 +20,7 @@ class Dog
   end 
   
   def self.print_all
-    dog_name = [@@all] 
+    dog_name = [name] 
     puts dog_name 
   end
 end
