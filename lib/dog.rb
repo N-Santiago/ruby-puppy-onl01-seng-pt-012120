@@ -10,7 +10,7 @@ class Dog
   end
   
   def self.all(name)
-    @all 
+    @all.inspect 
   end
   
 end
